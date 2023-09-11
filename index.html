@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f4f0cf6a13.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+     <div class="container">
+        <nav>
+            <h1><a href="#">Portfo<span>lio</span></a><h1>
+            <ul>
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+           <div class="header-text">
+              <p>UI/UX Designer</p>
+              <h1>Hi, I'm <span>Prashanth</span><br>From Ongole</h1>
+           </div>
+     </div>
+</div>
+<!------------------about----------------------> 
+<div id="about">
+    <div class="container">
+        <div class="row"> 
+            <div class="about-col-1">
+                 <img src= "image.jpg"">
+            </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">About Me</h1>
+               <p>I am a Software engineer related to the branch Computer Science.I am very passionate to learn new skills and I love to design webpages and portfoilos.Being a web developer is not just writing code. It is literally breathing life into a website. It is making help, beauty, information, and communication available to thousands and millions of people around the world. It is allowing stunning, stylish, and user-friendly designs to get live and do their best job.Me as a UI/UX designer works on a team to create products that provide meaningful and enjoyable experiences for users. I concerned with the entire process of product design, from branding to design to useability. UI (user interface) designers build interfaces in software or other computerized devices</p>I love to work in groups where everyone can voice their opinions and ideas</p>
+                   <div class="tab-titles">
+                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                         <ul>
+                             <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                             <li><span>Web Development</span><br>WEb app Development</li>
+                         </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                         <ul>
+                             <li><span>2019</span><br>I completed My Secondry School Of Education at Ongole</li>
+                             <li><span>2021</span><br>I completed My Higher Secondry School Of Education at Saraswathi junior college</li>
+                            <li><span>2023</span><br>Currently Pursuing My Btech at Rise Krishna Sai Group Of Institutions</li>
+                         </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------services----------------------->
+<div id="services">
+           <div class="container">
+               <h1 class="sub-tittle">My Services</h1>
+                    <div class="services-list">
+                       <div>
+                           <i class="fa-solid fa-code"></i>
+                            <h2>Web Design</h2>
+                            <p>langing pages and Websites,portfolios,templates,code coverter etc....</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-crop-simple"></i>
+                             <h2>UI/UX Design</h2>
+                             <p>Information Architecture,Wireframing and Prototyping, Visual Design, Interaction Design, Responsive Design, Usability Testing, Accessibility.</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                    </div>
+              </div>
+</div>
+<!-----------------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                 <h1 class="sub-title">Contact Me</h1>
+                 <p><i class="fas fa-paper-plane"></i>contact@example.com</p>
+                 <p><i class="fas fa-phone-square-alt"></i>0123456789</p>
+                 <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/yadalla-prashanth-03798724b"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/PrashanthYadal1?t=nlzA5MWHwYFUNk6JO8Z7GQ&s=08"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://www.facebook.com/prashanthyadalla?mibextid=2JQ9oc"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="c:\Users\user\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\7F8DFC182100B72F5E7CB91F63F9C8DB\WhatsApp Image 2023-09-11 at 15.27.20.jpg"><i class="fa-brands fa-instagram"></i></a>
+                 </div>
+                 <a href="" class="btn btn2">Download CV</a>
+            </div>
+             <div class="contact-right">
+              <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Prashanth. Made with<i class="fas fa-heart"></i>by Easy Tutorials</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
